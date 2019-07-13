@@ -12,7 +12,7 @@ int main(int argc, char* argv[]) {
    string sql;
    
    try {
-      connection C("dbname=bighouse user=bigbrother password=who?me? host=poc.orisun-iot.com port=15432");
+      connection C("dbname=bighouse user=bigbrother password=******** host=poc.*****-***.com port=15432");
       if (C.is_open()) {
          cout << "Opened database successfully: " << C.dbname() << endl;
       } else {
